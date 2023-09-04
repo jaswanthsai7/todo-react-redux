@@ -73,7 +73,7 @@ export default function TodoList() {
             key={item.id}
           >
             <p className="text-white">{item.text}</p>
-            <ul class="flex space-x-8">
+            <ul className="flex space-x-8">
               <button
                 className="text-white bg-red-500 border-0 py-1 px-4 focus:outline-none hover:bg-red-600 rounded text-md"
                 onClick={() => {
